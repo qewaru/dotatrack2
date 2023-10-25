@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #041e25;
+  font-family: 'Urbanist', sans-serif;
+}
+
+body {
+  background-color: #edf9fd;
+}
+
+select {
+  appearance: none;
+  outline: none;
+}
+
+.parent-plate p {
+  display: none;
+}
+
+.parent-plate:hover p {
+  display: block;
+  color: #edf9fd;
+  text-shadow: #000 2px 2px 5px, #000 2px 2px 5px;
+  cursor: default;
+}
